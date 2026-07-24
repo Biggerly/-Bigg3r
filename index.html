@@ -70,6 +70,13 @@
   .ca-strip .flag{ color:var(--pink); opacity:0; transition:opacity .2s ease; }
   .ca-strip.copied .flag{ opacity:1; }
 
+  @media(max-width:520px){
+    .hero{ padding:130px 6vw 70px; }
+    .btn{ font-size:11.5px; padding:12px 18px; letter-spacing:0.5px; gap:6px; }
+    .hero-ctas{ gap:10px; }
+    .ca-strip{ font-size:10px; padding:8px 12px; max-width:100%; word-break:break-all; white-space:normal; }
+  }
+
   .fab{ position:fixed; bottom:32px; right:32px; z-index:90; width:58px; height:58px; border-radius:50%; background:var(--pink); display:flex; align-items:center; justify-content:center; box-shadow:0 8px 26px rgba(232,38,95,0.5); text-decoration:none; color:#fff; animation:fab-pulse 2.4s ease-in-out infinite; }
   .fab svg{ width:24px; height:24px; }
   @keyframes fab-pulse{ 0%,100%{ box-shadow:0 8px 26px rgba(232,38,95,0.5);} 50%{ box-shadow:0 8px 40px rgba(232,38,95,0.75);} }
@@ -154,7 +161,7 @@
   <div class="stack">
     <div class="line solid">Think</div>
     <div class="line ghost">Bigg<span class="num">3</span>rly.</div>
-    <div class="line solid">Get Bigger.</div>
+    <div class="line solid">Get Bigg<span class="num">3</span>r.</div>
   </div>
 
   <div class="hero-foot">
